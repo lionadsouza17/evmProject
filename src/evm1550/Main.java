@@ -18,7 +18,7 @@ public class Main
 		evm.cu.ballot.openVoting();
 		
 		evm.bu.candidButton.castVote(0);
-		evm.bu.candidButton.castVote(0);
+		//evm.bu.candidButton.castVote(0);
 		evm.bu.candidButton.castVote(2);
 		evm.bu.candidButton.castVote(1);
 		evm.bu.candidButton.castVote(0);
@@ -27,7 +27,7 @@ public class Main
 		//evm.bu.candidButton.castVote(1);
 		
 		evm.cu.totalButton.getTotalVoters();
-		
+	//	evm.cu.totalButton.getNumberOfvoters();
 		evm.cu.resultButton.displayResult();
 		
 		evm.cu.clearButton.clearVoting();

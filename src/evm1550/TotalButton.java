@@ -2,9 +2,15 @@ package evm1550;
 
 public class TotalButton extends Button
 {
+	
+	
 	//CU cu = new CU();
 	int count;
 	
+	public TotalButton()
+	{
+		this.count=count;
+	}
 	public void getTotalVoters()
 	{
 		System.out.println("\n");
@@ -18,5 +24,10 @@ public class TotalButton extends Button
 		
 		System.out.println("*************************");
 		System.out.println("\n");
+	}
+	public int getNumberOfvoters()
+	{
+		System.out.println("seeeeeeeeeeeee"+count);
+		return count;
 	}
 }

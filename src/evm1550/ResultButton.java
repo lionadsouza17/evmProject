@@ -16,4 +16,6 @@ public class ResultButton extends Button
 		System.out.println("*************************");
 		System.out.println("\n");
 	}
+	
 }
+
